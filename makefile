@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -Wall -std=c++23
 TARGET = main.out
-SOURCES = main.cpp 
+SOURCES = main.cpp pointT.hpp formeT.hpp rectangleT.hpp carreT.hpp 
 BUILD_DIR = build
 OBJECTS = $(SOURCES:%.cpp=$(BUILD_DIR)/%.o)
 
